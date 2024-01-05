@@ -1,3 +1,8 @@
+@font-face {
+ font-family: "Century Gothic";
+ src: url(./assets/fonts/GOTHIC.TTF);
+}
+
 :root {
  --acc-clr: #657d59;
 
@@ -18,7 +23,7 @@ body {
  background-color: var(--ter-clr);
  max-width: 1920px;
  margin: 0 auto;
- padding: 4rem 6rem;
+ padding: clamp(.5rem, 6vw, 4rem) clamp(.5rem, 6vw, 5rem);
 
  font-family: sans-serif;
 }
@@ -26,6 +31,16 @@ body {
 img {
  display: block;
  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: normal;
+ font-family: "Century Gothic";
 }
 
 h1 {
@@ -41,7 +56,7 @@ p {
  color: white;
  text-decoration: none;
 
- padding: 1em 2em;
+ padding: 1em 1em;
  background-color: var(--acc-clr);
  border-radius: 7px;
 }
@@ -54,25 +69,28 @@ p {
 .divider {
  color: var(--acc-clr);
  width: 25%;
- margin: 2rem auto;
+ margin: 1rem auto;
 }
 
 #thank-you {
  color: var(--acc-clr);
+ font-family: "Century Gothic";
  font-size: 1.5rem;
- font-weight: bold;
+ font-weight: normal;
  text-align: center;
- margin-top: -2rem;
+ margin: -1rem 0 .5em;
 }
 
 /* > webpage section */
+
+/* MOBILE */
 
 .article-section {
  background-color: var(--pri-clr);
  outline: 1px solid #BBB;
  border-radius: 10px;
 
- padding: 2em;
+ padding: clamp(1rem, 5vw, 2.5rem) 5vw;
 
  display: flex;
  flex-direction: column;
@@ -88,26 +106,25 @@ p {
 
 .webpage-article {
  display: flex;
+ flex-direction: column;
  gap: 1rem;
 }
 
-.webpage-article > * {
- outline: 1px solid var(--acc-clr);
+.rounded-img {
+ height: 100vw;
+ box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+ position: relative;
 }
 
-.rounded-img {
- width: 50%;
- aspect-ratio: 1 / .8;
- flex-basis: 50%;
- box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+.rounded-img>img {
+ width: 100%;
+ position: absolute;
 }
 
 .webpage-article-content {
- flex-basis: 50%;
-
  background-color: var(--sec-clr);
 
- padding: 1em 1.5em 1.5em 1.5em;
+ padding: 1rem 5vw 1.5em;
 
  display: flex;
  flex-direction: column;
@@ -115,10 +132,10 @@ p {
  gap: 1rem;
 
  border-radius: 7px;
- box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-.webpage-article-content a {
+.webpage-article-content>a {
  display: flex;
  align-items: center;
  justify-content: center;
@@ -129,4 +146,45 @@ p {
  display: block;
  width: 15px;
  filter: invert(1);
+}
+
+/* > webpage section */
+
+
+
+/* TABLET */
+
+@media (width >=480px) {
+ .rounded-img {
+  height: 70vw;
+ }
+
+ .webpage-article-content {
+  padding: 3vw 5vw 4vw;
+ }
+}
+
+/* DESKTOP */
+
+@media (width >=768px) {
+ .webpage-article {
+  flex-direction: row;
+ }
+
+ .rounded-img {
+  height: unset;
+  width: 50%;
+  flex-basis: 50%;
+ }
+
+ .rounded-img>img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+ }
+
+ .webpage-article-content {
+  flex-basis: 50%;
+  padding: 1rem clamp(.5em, 5vw, 1.5em) 1.5em;
+ }
 }
