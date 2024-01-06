@@ -1,6 +1,11 @@
 @font-face {
  font-family: "Century Gothic";
- src: url(./assets/fonts/GOTHIC.TTF);
+ src:
+  local("Century Gothic"),
+  url(./assets/fonts/Century\ Gothic.woff2) format("woff2"),
+  url(./assets/fonts/Century\ Gothic.woff) format("woff");
+ font-weight: normal;
+ font-style: normal;
 }
 
 :root {
@@ -11,6 +16,8 @@
  --ter-clr: hsl(117, 100%, 96%);
 }
 
+/* RESET */
+
 *,
 *::before,
 *::after {
@@ -18,6 +25,8 @@
  padding: 0;
  box-sizing: border-box;
 }
+
+/* GENERAL STYLES */
 
 body {
  background-color: var(--ter-clr);
@@ -51,16 +60,6 @@ p {
  line-height: 1.5;
 }
 
-.btn {
- display: inline-block;
- color: white;
- text-decoration: none;
-
- padding: 1em 1em;
- background-color: var(--acc-clr);
- border-radius: 7px;
-}
-
 .circle-img {
  width: clamp(80px, 40vw, 180px);
  aspect-ratio: 1 / 1;
@@ -78,11 +77,6 @@ p {
  object-position: left 0 bottom -15px;
 }
 
-.rounded-img {
- border-radius: 7px;
- overflow: hidden;
-}
-
 .divider {
  color: var(--acc-clr);
  width: 25%;
@@ -96,6 +90,23 @@ p {
  font-weight: normal;
  text-align: center;
  margin: -1rem 0 .5em;
+}
+
+/* UTILITY CLASSES */
+
+.btn {
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+
+ padding: 1em 1em;
+ background-color: var(--acc-clr);
+ border-radius: 7px;
+}
+
+.rounded-img {
+ border-radius: 7px;
+ overflow: hidden;
 }
 
 /* MOBILE */
@@ -163,10 +174,6 @@ p {
  filter: invert(1);
 }
 
-/* > webpage section */
-
-
-
 /* TABLET */
 
 @media (width >=480px) {
@@ -188,8 +195,8 @@ p {
 
  .rounded-img {
   height: unset;
-  width: 50%;
-  flex-basis: 50%;
+  /* flex: 1; */
+  flex-basis: 50%; /* more accurate than flex: 1 in pixel sense */
  }
 
  .rounded-img>img {
@@ -199,7 +206,8 @@ p {
  }
 
  .webpage-article-content {
-  flex-basis: 50%;
+  /* flex: 1; */
+  flex-basis: 50%; /* more accurate than flex: 1 in pixel sense */
   padding: 1rem clamp(.5em, 5vw, 1.5em) 1.5em;
  }
 }
