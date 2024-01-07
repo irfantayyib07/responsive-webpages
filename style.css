@@ -81,8 +81,10 @@ p {
 }
 
 .divider {
- color: var(--acc-clr);
+ all: initial;
+ background-color: var(--acc-clr);
  width: 25%;
+ height: 0.5px;
  margin: 1rem auto;
 }
 

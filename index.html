@@ -13,7 +13,10 @@
 
 <body>
  <section class="hero-section circle-img">
-  <img src="./assets/images/compressed.jpg" alt="">
+  <img
+   srcset="./assets/images/photo-400w.webp 400w, ./assets/images/photo-800w.webp 800w, ./assets/images/photo-1600w.webp 1600w"
+   sizes="50vw" src="./assets/images/photo.jpg"
+   alt="Photo of Irfan Tayyab" />
  </section>
 
  <section class="article-section">
@@ -21,7 +24,12 @@
 
   <div class="webpage-articles">
    <article class="webpage-article article-first">
-    <div class="rounded-img"><img src="./assets/images/Travel Webpage.png" alt="" class="webpage-article-cover"></div>
+    <div class="rounded-img">
+     <img
+      srcset="./assets/images/Travel-Webpage-400w.webp 400w, ./assets/images/Travel-Webpage-800w.webp 800w, ./assets/images/Travel-Webpage-1600w.webp 1600w"
+      sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, (min-width: 801px) 1600px"
+      src="./assets/images/Travel Webpage.png" alt="Travel webpage preview" />
+    </div>
     <div class="webpage-article-content">
      <h2>1. Travel Webpage</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi esse a saepe, corrupti quod veniam delectus
@@ -38,7 +46,12 @@
    <hr class="divider" />
 
    <article class="webpage-article article-second">
-    <div class="rounded-img"><img src="./assets/images/Portfolio.png" alt="" class="webpage-article-cover"></div>
+    <div class="rounded-img">
+     <img
+      srcset="./assets/images/Portfolio.webp 400w, ./assets/images/Portfolio-800w.webp 800w, ./assets/images/Portfolio-1600w.webp 1600w"
+      sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, (min-width: 801px) 1600px"
+      src="./assets/images/Portfolio.png" alt="Portfolio webpage preview" />
+    </div>
     <div class="webpage-article-content">
      <h2>2. Personal Portfolio</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi esse a saepe, corrupti quod veniam delectus
@@ -55,7 +68,12 @@
    <hr class="divider" />
 
    <article class="webpage-article article-third">
-    <div class="rounded-img"><img src="./assets/images/AIPAY.png" alt="" class="webpage-article-cover"></div>
+    <div class="rounded-img">
+     <img
+      srcset="./assets/images/AIPAY-400w.webp 400w, ./assets/images/AIPAY-800w.webp 800w, ./assets/images/AIPAY-1600w.webp 1600w"
+      sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, (min-width: 801px) 1600px"
+      src="./assets/images/AIPAY.png" alt="AIPAY webpage preview" />
+    </div>
     <div class="webpage-article-content">
      <h2>3. AIPAY</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi esse a saepe, corrupti quod veniam delectus
@@ -72,7 +90,12 @@
    <hr class="divider" />
 
    <article class="webpage-article article-fourth">
-    <div class="rounded-img"><img src="./assets/images/FastnD.png" alt="" class="webpage-article-cover"></div>
+    <div class="rounded-img">
+     <img
+      srcset="./assets/images/FastnD-400w.webp 400w, ./assets/images/FastnD-800w.webp 800w, ./assets/images/FastnD-1600w.webp 1600w"
+      sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, (min-width: 801px) 1600px"
+      src="./assets/images/FastnD.png" alt="FastnD webpage preview" />
+    </div>
     <div class="webpage-article-content">
      <h2>4. FastnD</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi esse a saepe, corrupti quod veniam delectus
@@ -91,6 +114,20 @@
    <p id="thank-you">Are these not enough? 🤨 Thank you!</p>
   </div>
  </section>
+
+ <!-- <script>
+  window.addEventListener("resize", updateText);
+
+  const section = document.querySelector(".hero-section");
+  const p = document.createElement("p");
+  document.body.prepend(p);
+
+  updateText();
+
+  function updateText() {
+   p.textContent = `Window: ${window.innerWidth}, Ratio: ${window.devicePixelRatio}`;
+  }
+ </script> -->
 </body>
 
 </html>
