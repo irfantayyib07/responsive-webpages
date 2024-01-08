@@ -103,6 +103,15 @@ p {
  margin: -1rem 0 .5em;
 }
 
+.stick-together {
+ white-space: nowrap;
+}
+
+.new-line {
+ display: block;
+ line-height: 2;
+}
+
 /* UTILITY CLASSES */
 
 .btn {
