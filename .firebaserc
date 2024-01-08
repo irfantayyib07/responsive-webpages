@@ -1,5 +1,27 @@
 {
-  "projects": {
-    "default": "responsive-webpages-it"
+ "projects": {
+  "default": "responsive-webpages-it"
+ },
+ "targets": {
+  "responsive-webpages-it": {
+   "hosting": {
+    "holder": [
+     "responsive-webpages-it"
+    ],
+    "travel-agency": [
+     "travelagency-1-it"
+    ],
+    "personal-portfolio": [
+     "personalportfolio-2-it"
+    ],
+    "aipay": [
+     "aipay-3-it"
+    ],
+    "fastnd": [
+     "fastnd-4-it"
+    ]
+   }
   }
+ },
+ "etags": {}
 }

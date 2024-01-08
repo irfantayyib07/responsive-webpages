@@ -1,11 +1,50 @@
 {
-  "hosting": {
-    "public": "./",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/.git",
-      "**/node_modules/**"
-    ]
+ "hosting": [
+  {
+   "target": "holder",
+   "public": "./",
+   "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/webpages/",
+    "**/node_modules/**"
+   ]
+  },
+  {
+   "target": "travel-agency",
+   "public": "./webpages/Webpage2",
+   "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+   ]
+  },
+  {
+   "target": "personal-portfolio",
+   "public": "./webpages/Webpage3",
+   "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+   ]
+  },
+  {
+   "target": "aipay",
+   "public": "./webpages/Webpage4",
+   "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+   ]
+  },
+  {
+   "target": "fastnd",
+   "public": "./webpages/Webpage5",
+   "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+   ]
   }
+ ]
 }
