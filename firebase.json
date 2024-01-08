@@ -5,8 +5,7 @@
    "public": "./",
    "ignore": [
     "firebase.json",
-    "**/.*/**",
-    "**/webpages/**",
+    "**/.*",
     "**/node_modules/**"
    ]
   },
@@ -15,8 +14,7 @@
    "public": "./webpages/Webpage2",
    "ignore": [
     "firebase.json",
-    "**/.*/**",
-    "**/webpages/**",
+    "**/.*",
     "**/node_modules/**"
    ]
   },
@@ -25,7 +23,7 @@
    "public": "./webpages/Webpage3",
    "ignore": [
     "firebase.json",
-    "**/.*/**",
+    "**/.*",
     "**/node_modules/**"
    ]
   },
@@ -34,7 +32,7 @@
    "public": "./webpages/Webpage4",
    "ignore": [
     "firebase.json",
-    "**/.*/**",
+    "**/.*",
     "**/node_modules/**"
    ]
   },
@@ -43,7 +41,7 @@
    "public": "./webpages/Webpage5",
    "ignore": [
     "firebase.json",
-    "**/.*/**",
+    "**/.*",
     "**/node_modules/**"
    ]
   }
