@@ -28,6 +28,10 @@
  box-sizing: border-box;
 }
 
+ul {
+ margin-left: 1rem;
+}
+
 /* GENERAL STYLES */
 
 body {
@@ -66,6 +70,8 @@ h1 {
 
 p {
  line-height: 1.5;
+ max-width: 60ch;
+ color: var(--acc-clr);
 }
 
 .circle-img {
@@ -100,7 +106,7 @@ p {
  font-size: 1.5rem;
  font-weight: normal;
  text-align: center;
- margin: -1rem 0 .5em;
+ margin: -1rem auto.5em;
 }
 
 .stick-together {
