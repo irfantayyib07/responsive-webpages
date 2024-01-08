@@ -26,7 +26,6 @@
    "ignore": [
     "firebase.json",
     "**/.*/**",
-    "**/webpages/**",
     "**/node_modules/**"
    ]
   },
@@ -36,7 +35,6 @@
    "ignore": [
     "firebase.json",
     "**/.*/**",
-    "**/webpages/**",
     "**/node_modules/**"
    ]
   },
@@ -46,7 +44,6 @@
    "ignore": [
     "firebase.json",
     "**/.*/**",
-    "**/webpages/**",
     "**/node_modules/**"
    ]
   }
