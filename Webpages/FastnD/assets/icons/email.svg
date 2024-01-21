@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   fill="none"
+   version="1.1"
+   id="svg1688"
+   sodipodi:docname="email.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1692" />
+  <sodipodi:namedview
+     id="namedview1690"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.875"
+     inkscape:cx="27.356322"
+     inkscape:cy="24.643678"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1688"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:bbox-nodes="true" />
+  <path
+     d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
+     fill="#55ACEE"
+     id="path1684"
+     style="fill:#ffffff;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:24.3013px;line-height:1.25;font-family:sans-serif;fill:#ff397f;fill-opacity:1;stroke:none;stroke-width:0.607535"
+     x="13.259466"
+     y="28.550848"
+     id="text13990"><tspan
+       sodipodi:role="line"
+       id="tspan13988"
+       x="13.259466"
+       y="28.550848"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arcon;-inkscape-font-specification:Arcon;stroke-width:0.607535;fill:#ff397f;fill-opacity:1">@</tspan></text>
+</svg>

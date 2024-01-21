@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 400 400"
+   xml:space="preserve"
+   sodipodi:docname="burger.svg"
+   width="400"
+   height="400"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs16658"><inkscape:path-effect
+     effect="fill_between_many"
+     method="originald"
+     linkedpaths="#path17390,0,1"
+     id="path-effect21193" /></defs><sodipodi:namedview
+   id="namedview16656"
+   pagecolor="#ffffff"
+   bordercolor="#999999"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.1313708"
+   inkscape:cx="312.45281"
+   inkscape:cy="206.82873"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1"
+   inkscape:object-paths="true"
+   inkscape:snap-intersection-paths="true"
+   inkscape:snap-smooth-nodes="true"
+   inkscape:snap-midpoints="true" />
+
+<g
+   id="g16625">
+</g>
+<g
+   id="g16627">
+</g>
+<g
+   id="g16629">
+</g>
+<g
+   id="g16631">
+</g>
+<g
+   id="g16633">
+</g>
+<g
+   id="g16635">
+</g>
+<g
+   id="g16637">
+</g>
+<g
+   id="g16639">
+</g>
+<g
+   id="g16641">
+</g>
+<g
+   id="g16643">
+</g>
+<g
+   id="g16645">
+</g>
+<g
+   id="g16647">
+</g>
+<g
+   id="g16649">
+</g>
+<g
+   id="g16651">
+</g>
+<g
+   id="g16653">
+</g>
+<style
+   type="text/css"
+   id="style17388">
+	.st0{fill:#80B38F;}
+</style><g
+   id="g31118"
+   transform="matrix(0.50223214,0,0,0.50223214,69.287789,76.377524)"><g
+     id="g31046"><g
+       id="g31040"><path
+         d="M 448,368 H 64 c -17.673,0 -32,14.327 -32,32 0,26.51 21.49,48 48,48 h 352 c 26.51,0 48,-21.49 48,-48 0,-17.673 -14.327,-32 -32,-32 z"
+         fill="#faa01e"
+         id="path31038"
+         style="fill:#fc7a02;fill-opacity:1" /></g><g
+       id="g31044" /></g><g
+     id="g31050"><path
+       d="m 64,352 v 16 h 16 l 17.689,8.845 C 107.1,381.55 117.478,384 128,384 c 10.522,0 20.9,-2.45 30.311,-7.155 l 3.378,-1.689 C 171.1,370.45 181.478,368 192,368 c 10.522,0 20.9,2.45 30.311,7.155 l 3.378,1.689 C 235.1,381.55 245.478,384 256,384 c 10.522,0 20.9,-2.45 30.311,-7.155 l 3.378,-1.689 C 299.1,370.45 309.478,368 320,368 c 10.522,0 20.9,2.45 30.311,7.155 l 3.378,1.689 C 363.1,381.55 373.478,384 384,384 c 10.522,0 20.9,-2.45 30.311,-7.155 L 432,368 h 16 v -16 z"
+       fill="#4b8c41"
+       id="path31048"
+       sodipodi:nodetypes="ccccsccsccsccsccsccccc"
+       style="fill:#12b304;fill-opacity:1" /></g><g
+     id="g31086"><g
+       id="g31060"><g
+         id="g31054"><path
+           d="M 448,320 H 64 c -8.837,0 -16,-7.163 -16,-16 v -16 c 0,-8.837 7.163,-16 16,-16 h 384 c 8.837,0 16,7.163 16,16 v 16 c 0,8.837 -7.163,16 -16,16 z"
+           fill="#d26e28"
+           id="path31052"
+           style="fill:#e4298b;fill-opacity:1" /></g><g
+         id="g31058" /></g><g
+       id="g31064"><path
+         d="m 32,256 c 0,8.837 7.163,16 16,16 h 217.373 c 4.243,0 8.313,1.686 11.314,4.686 l 36.686,36.686 c 12.497,12.497 32.758,12.497 45.255,0 l 36.686,-36.686 c 3.001,-3.001 7.07,-4.686 11.314,-4.686 H 464 c 8.837,0 16,-7.163 16,-16 0,-8.837 -7.163,-16 -16,-16 H 48 c -8.837,0 -16,7.163 -16,16 z"
+         fill="#faa019"
+         id="path31062"
+         style="fill:#edc80f;fill-opacity:1" /></g><g
+       id="g31068"><path
+         d="M 256,240 H 48 c -8.837,0 -16,7.163 -16,16 0,8.837 7.163,16 16,16 h 208 c 8.837,0 16,-7.163 16,-16 0,-8.837 -7.163,-16 -16,-16 z"
+         fill="#ffd205"
+         id="path31066"
+         style="fill:#edc80f;fill-opacity:1" /></g><g
+       id="g31072"><path
+         d="m 480,335.921 c 0,8.837 -7.163,16 -16,16 H 246.627 c -4.243,0 -8.313,1.686 -11.314,4.686 l -36.686,36.686 c -12.497,12.497 -32.758,12.497 -45.255,0 l -36.686,-36.686 c -3.001,-3.001 -7.07,-4.686 -11.314,-4.686 H 48 c -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 h 416 c 8.837,0.001 16,7.164 16,16 z"
+         fill="#faa019"
+         id="path31070"
+         style="fill:#edc80f;fill-opacity:1" /></g><g
+       id="g31076"><path
+         d="m 272,335.921 c 0,-8.837 -7.163,-16 -16,-16 H 48 c -8.837,0 -16,7.164 -16,16 0,8.837 7.163,16 16,16 h 57.372 c 4.244,0 8.314,1.686 11.314,4.687 l 36.686,36.686 c 12.497,12.497 32.758,12.497 45.255,0 l 36.686,-36.686 c 3.001,-3.001 7.071,-4.687 11.314,-4.687 H 256 c 8.837,0 16,-7.163 16,-16 z"
+         fill="#ffd205"
+         id="path31074"
+         style="fill:#edc80f;fill-opacity:1" /></g><g
+       id="g31080"><path
+         d="M 432,240 H 80 c -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 h 352 c 8.837,0 16,7.163 16,16 0,8.837 -7.163,16 -16,16 z"
+         fill="#f04b37"
+         id="path31078"
+         style="fill:#e4298b;fill-opacity:1" /></g><g
+       id="g31084" /></g><g
+     id="g31096"><g
+       id="g31090"><path
+         d="M 448,208 H 64 C 46.327,208 32,193.673 32,176 32,114.144 82.144,64 144,64 h 224 c 61.856,0 112,50.144 112,112 0,17.673 -14.327,32 -32,32 z"
+         fill="#faa01e"
+         id="path31088"
+         style="fill:#fc7a02;fill-opacity:1" /></g><g
+       id="g31094" /></g><g
+     id="g31100"><circle
+       cx="256"
+       cy="88"
+       fill="#faf0dc"
+       r="8"
+       id="circle31098" /></g><g
+     id="g31104"><circle
+       cx="304"
+       cy="128"
+       fill="#faf0dc"
+       r="8"
+       id="circle31102" /></g><g
+     id="g31108"><circle
+       cx="160"
+       cy="88"
+       fill="#faf0dc"
+       r="8"
+       id="circle31106" /></g><g
+     id="g31112"><circle
+       cx="208"
+       cy="128"
+       fill="#faf0dc"
+       r="8"
+       id="circle31110" /></g><g
+     id="g31116"><circle
+       cx="352"
+       cy="88"
+       fill="#faa01e"
+       r="8"
+       id="circle31114"
+       style="fill:#faf0dc;fill-opacity:1" /></g></g></svg>

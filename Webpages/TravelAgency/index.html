@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- CACHE -->
+ <meta http-equiv="cache-control" content="max-age=0" />
+ <meta http-equiv="cache-control" content="no-cache" />
+ <meta http-equiv="expires" content="0" />
+ <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+ <meta http-equiv="pragma" content="no-cache" />
+ <!--  -->
+ <link
+  href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400&family=PT+Serif+Caption&display=swap"
+  rel="stylesheet">
+ <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="style.css" class="css">
+ <title>Travel Agency</title>
+</head>
+
+<body>
+
+ <!-- HEADER -->
+ <header>
+  <nav>
+   <ul>
+    <img src="./assets/icons/logo.svg" alt="">
+    <li><a href="#">Tours</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Contacts</a></li>
+   </ul>
+  </nav>
+  <a href="#">Book a Tour</a>
+  <h1 class="hero__title">Winter</h1>
+  <h2 class="hero_subtitle">is coming soon</h2>
+
+  <form action="server.php" method="get">
+   <input type="search" name="Search" value="" placeholder="Search something interesting">
+   <button type="submit"><img src="./assets/icons/search.svg" alt=""></button>
+  </form>
+ </header>
+
+ <!-- MAIN -->
+ <main>
+
+  <!-- SECTION ONE (DESTINATIONS AVAILABLE) -->
+  <section class="section__one">
+
+   <!-- CARD ONE -->
+   <div class="card non-featured">
+
+    <div class="card--img__container">
+     <img src="./assets/images/destination1.jpg" alt="">
+    </div>
+
+    <div class="card--content__container">
+     <div class="upper">
+      <p class="italic gray">holidays/weekend</p>
+      <p class="gray">10 min ago</p>
+     </div>
+     <h2>Closer to Nature</h2>
+     <p>If you love wild natures and adventures, so this tour is for you. Dog sledding and unspoiled nature is waiting
+      for you.</p>
+     <div class="lower">
+      <p class="italic gray">by TravelMe</p>
+      <a href="#">more</a>
+     </div>
+    </div>
+   </div>
+
+   <!-- CARD TWO -->
+   <div class="card non-featured">
+
+    <div class="card--img__container">
+     <img src="./assets/images/destination2a.jpg" alt="">
+    </div>
+
+    <div class="card--content__container">
+     <div class="upper">
+      <p class="italic gray">5 day tour</p>
+      <p class="gray">15 min ago</p>
+     </div>
+     <h2>Mountain Dream</h2>
+     <p>You have a chance to spend 5 days in a 5-star hotel in mountains. Stunning views and various activities will
+      make your vacation unbelievable.</p>
+     <div class="lower">
+      <p class="italic gray">by Travel the World</p>
+      <a href="#">more</a>
+     </div>
+    </div>
+   </div>
+
+   <!-- CARD THREE -->
+   <div class="card featured">
+    <p class="italic">7 days tour</p>
+    <h2>Mother Nature</h2>
+    <p>Tired with the bustle and want to relax with your body and soul? Spend a week with close connection the mother
+     nature.</p>
+    <a href="#">more</a>
+    <img src="./assets/icons/badge.svg" alt="" class="badge">
+   </div>
+
+   <!-- CARD FOUR -->
+   <div class="card non-featured">
+
+    <div class="card--img__container">
+     <img src="./assets/images/destination4.jpg" alt="">
+    </div>
+
+    <div class="card--content__container">
+     <div class="upper">
+      <p class="italic gray">6 day tour</p>
+      <p class="gray">20 min ago</p>
+     </div>
+     <h2>On the Road</h2>
+     <p>You love road trips and can't live without adventures? Take your friends and spend 6 days travelling and
+      exploring.</p>
+     <div class="lower">
+      <p class="italic gray">by All Tour</p>
+      <a href="">more</a>
+     </div>
+    </div>
+   </div>
+
+   <!-- CARD FIVE -->
+   <div class="card featured">
+    <p class="italic">weekend tour</p>
+    <h2>Active Rest</h2>
+    <p>You don't know what to do on your weekend and want some active vacation? Two wonderful days in mountains climbing
+     and skiing will make your days off unforgettable.</p>
+    <a href="">more</a>
+    <img src="./assets/icons/badge.svg" alt="" class="badge">
+   </div>
+  </section>
+
+  <!-- SECTION TWO (TESTIMONIAL) -->
+  <h2>Testimonial</h2>
+  <section class="section__two">
+   <div class="comment_container">
+    <div class="comment-content__container">
+     <h3>Sarah Smith</h3>
+     <p class="italic gray">holidays/weekend tour</p>
+     <blockquote>My friends told me about this agency. I was so happy to work with them. I spent an amazing time without
+      any worries. Managers of this agency took into account my preferences and proposed me the best tour ever. The
+      service is very qualitative. Thanks to All Over the World for an amazing service and team.</blockquote>
+    </div>
+   </div>
+   <img src="./assets/images/commenter.png" alt="">
+  </section>
+
+  <!-- SECTION THREE (POPULAR COUNTRIES) -->
+  <h2>Popular Countries</h2>
+  <section class="section__three">
+   <div class="country__card">
+    <p class="italic gray">holidays/weekend</p>
+    <h3>Switzerland</h3>
+    <p class="italic gray">by Bon Voyage</p>
+   </div>
+   <div class="country__card">
+    <p class="italic gray">holidays/weekend</p>
+    <h3>Iceland</h3>
+    <p class="italic gray">by Journey Time</p>
+   </div>
+   <div class="country__card">
+    <p class="italic gray">holidays/weekend</p>
+    <h3>Ukraine</h3>
+    <p class="italic gray">by Travel the World</p>
+   </div>
+   <div class="country__card">
+    <p class="italic gray">holidays/weekend</p>
+    <h3>Norway</h3>
+    <p class="italic gray">by All Tour</p>
+   </div>
+  </section>
+
+  <!-- SECTION FOUR (NEWSLETTER) -->
+  <section class="section__four">
+   <h2>Subscribe</h2>
+   <h3>be the first who knows</h3>
+   <a href="#">subscribe</a>
+  </section>
+
+ </main>
+
+ <!-- FOOTER -->
+ <footer>
+  <div class="footer_s1">
+   <ul>
+    <li><a href="#"><img src="./assets/icons/fb.svg" alt=""></a></li>
+    <li><a href="#"><img src="./assets/icons/twitter.svg" alt=""></a></li>
+    <li><a href="#"><img src="./assets/icons/linkedin.svg" alt=""></a></li>
+    <li><a href="#"><img src="./assets/icons/google.svg" alt=""></a></li>
+   </ul>
+   <ul>
+    <li><a href="#">FAQs</a></li>
+    <li><a href="#">Terms of Service</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+   </ul>
+  </div>
+  <hr />
+  <div class="footer_s2">
+   <p>All Over the World &copy; Copyright 2022 <span>|</span> All Rights Reserved</p>
+  </div>
+ </footer>
+</body>
+
+</html>

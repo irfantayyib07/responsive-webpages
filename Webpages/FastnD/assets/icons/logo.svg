@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="100"
+   viewBox="0 0 105.83333 26.458333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     units="px"
+     width="400px"
+     inkscape:zoom="0.97102974"
+     inkscape:cx="298.13711"
+     inkscape:cy="68.998917"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="129.75916"
+       y="146.23651"
+       width="1229.6226"
+       height="444.88855"
+       id="rect2432" />
+    <rect
+       x="129.75916"
+       y="146.23651"
+       width="1229.6226"
+       height="444.88855"
+       id="rect2432-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.16741958,0,0,0.16741958,0.13938194,-24.3719)"
+       id="text2430"
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2432);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="129.75977"
+         y="277.61189"
+         id="tspan959"><tspan
+           style="font-weight:600;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#464959"
+           id="tspan955">Fastn</tspan><tspan
+           style="font-weight:600;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#ff397f"
+           id="tspan957">D</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text2430-5"
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2432-3);fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0,-0.16741957,0.16741957,0,-29.433767,40.258824)"><tspan
+         x="129.75977"
+         y="277.61189"
+         id="tspan963"><tspan
+           style="font-weight:600;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#ff397f"
+           id="tspan961">D</tspan></tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff397f;stroke-width:2.11704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path18014"
+       cx="3.1240773"
+       cy="21.173071"
+       r="2.0655575" />
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff397f;stroke-width:2.11704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path18014-2"
+       r="2.0655575"
+       cy="21.173071"
+       cx="14.136042" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="26.975229"
+       y="30.244953"
+       id="text11203"><tspan
+         sodipodi:role="line"
+         id="tspan11201"
+         style="stroke-width:0.264583"
+         x="26.975229"
+         y="30.244953" /></text>
+  </g>
+</svg>

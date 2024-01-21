@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- CACHE -->
+ <!-- <meta http-equiv="cache-control" content="max-age=0" />
+ <meta http-equiv="cache-control" content="no-cache" /> -->
+ <meta http-equiv="expires" content="0" />
+ <!-- <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+ <meta http-equiv="pragma" content="no-cache" /> -->
+ <!--  -->
+ <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet">
+ <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="style.css">
+ <title>FastnD</title>
+</head>
+
+<body>
+
+ <!-- SECTION HERO -->
+ <section class="hero">
+  <header>
+   <input type="checkbox" id="checkbox" class="checkbox">
+   <div class="options-toggle-container">
+    <label for="checkbox" class="options-toggle"><span></span></label>
+    <nav class="moreoptions">
+     <ul>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Submit complaint</a></li>
+      <li><a href="#">Request a branch</a></li>
+     </ul>
+    </nav>
+   </div>
+
+   <img src="./assets/icons/logo.svg" alt="" class="logo-header">
+
+   <nav>
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li class="menu-toggle-hover">
+
+      <input type="checkbox" id="second-checkbox" class="second-checkbox">
+      <a href="#"><label for="second-checkbox" class="menu-toggle"></label>Menu<img
+        src="./assets/icons/dropdownarrow.svg" alt="" class="inline-img"><img src="./assets/icons/dropdownarrow.svg"
+        alt="" class="hover-arrow"></a>
+      <nav class="menu-nav">
+
+       <div class="menu-intro">
+        <h1 class="menu-section-heading">Our Menu</h1>
+        <p>Food, treats and drinks full of big and bold backyard flavour. Take your pick.</p>
+       </div>
+
+       <div class="whatsnew">
+        <ul>
+         <li class="menu-section-heading">What's New</li>
+         <li><a href="#">Black Angus Burgers</a></li>
+         <li><a href="#">Chicken, Turkey & More</a></li>
+         <li><a href="#">Salads & Veggie Options</a></li>
+        </ul>
+       </div>
+
+       <div class="menu-button-container">
+        <a href="#">Nutritional Facts</a>
+        <a href="#">Allergen Guide</a>
+       </div>
+
+       <div class="pizzas">
+        <img src="./assets/images/pizza.jpg" alt="">
+        <ul>
+         <li class="menu-section-heading">Pizzas</li>
+         <li><a href="#">Chicken Tikka Pizza</a></li>
+         <li><a href="#">Chicken Tandoori Pizza</a></li>
+         <li><a href="#">Hot & Spicy Pizza</a></li>
+         <li><a href="#">Chicken Fajita Pizza</a></li>
+        </ul>
+       </div>
+
+       <div class="burgers">
+        <img src="./assets/images/burger.jpg" alt="">
+        <ul>
+         <li class="menu-section-heading">Burgers</li>
+         <li><a href="#">Cheese Burger</a></li>
+         <li><a href="#">Jalapeno Burger</a></li>
+         <li><a href="#">Hot & Spicy Burger</a></li>
+        </ul>
+       </div>
+
+       <div class="fruitdrinks">
+        <img src="./assets/images/fruitjuice.jpg" alt="">
+        <ul>
+         <li class="menu-section-heading">Fruit Drinks</li>
+         <li><a href="#">Mango Juice</a></li>
+         <li><a href="#">Strawberry Juice</a></li>
+         <li><a href="#">Lemon Juice</a></li>
+         <li><a href="#">Orange Juice</a></li>
+        </ul>
+       </div>
+
+      </nav>
+
+     </li>
+     <li><a href="#">About Us</a></li>
+     <li><a href="#">Contact</a></li>
+     <li><a href="#">Login</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <div class="hero__content-container">
+   <div class="hero__text-container">
+    <h1>The Fast and the <span class="accent-clr">Delicious!</span></h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, quaerat?</p>
+   </div>
+   <div class="hero__img-container"><img src="./assets/icons/truck.svg" alt=""></div>
+  </div>
+ </section>
+
+ <!-- SECTION STEPS -->
+ <section class="steps">
+  <h1 class="section-title">Are you hungry?</h1>
+  <div class="steps__card-container">
+
+   <div class="steps__card">
+    <div class="steps__card-img-container"><img src="./assets/icons/hotdog.svg" alt=""></div>
+    <div class="steps__card-content-container">
+     <p>1. Choose your <span class="accent-clr">food</span></p>
+    </div>
+   </div>
+
+   <div class="steps__card">
+    <div class="steps__card-img-container"><img src="./assets/icons/creditcard.svg" alt=""></div>
+    <div class="steps__card-content-container">
+     <p>2. Make your <span class="accent-clr">order</span></p>
+    </div>
+   </div>
+
+   <div class="steps__card">
+    <div class="steps__card-img-container"><img src="./assets/icons/delivery.svg" alt=""></div>
+    <div class="steps__card-content-container">
+     <p>3. Receive your <span class="accent-clr">meal</span></p>
+    </div>
+   </div>
+
+   <svg viewBox="0 0 343.958 16.14" class="stepscurve">
+    <use href="#stepscurve"></use>
+   </svg>
+
+   <svg viewBox="0 0 200 200" class="stepsblobleft">
+    <use href="#stepsblobleft"></use>
+   </svg>
+
+   <svg viewBox="0 0 200 200" class="stepsblobright">
+    <use href="#stepsblobright"></use>
+   </svg>
+
+   <svg viewBox="0 0 352.69 238.125" class="circles">
+    <use href="#circles"></use>
+   </svg>
+
+  </div>
+ </section>
+
+ <!-- SECTION SUGGESTIONS -->
+ <section class="suggestions">
+
+  <h1 class="section-title">Our suggestions!</h1>
+  <!-- SUGGESTION ONE -->
+  <div class="suggestion-container">
+
+   <div class="figure-img-container"><img src="./assets/images/burger.jpg" alt=""></div>
+
+   <p>Complete Cangre Burger</p>
+   <div class="suggestions__card">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima quis repellendus.</p>
+    <img src="./assets/icons/rating1.svg" alt="">
+    <p class="price"><span class="small-sign">$</span>320</p>
+    <a href="#" class="suggestions__card__button">Add</a>
+   </div>
+
+  </div>
+
+  <!-- SUGGESTION TWO -->
+  <div class="suggestion-container">
+
+   <div class="figure-img-container"><img src="./assets/images/pizza.jpg" alt=""></div>
+
+   <p>Super Extra Muzzarella Pizza</p>
+   <div class="suggestions__card">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ducimus autem labore.</p>
+    <img src="./assets/icons/rating2.svg" alt="">
+    <p class="price"><span class="small-sign">$</span>280</p>
+    <a href="#" class="suggestions__card__button">Add</a>
+   </div>
+
+  </div>
+
+  <a href="#" class="suggestions__button">Read all suggestions</a>
+
+  <svg viewBox="0 0 352.69 238.125" class="circles">
+   <use href="#circles"></use>
+  </svg>
+
+  <svg viewBox="0 0 352.69 238.125" class="circles2">
+   <use href="#circles"></use>
+  </svg>
+ </section>
+
+ <!-- SECTION FOOD -->
+ <section class="food">
+
+  <svg viewBox="0 0 1300 99" class="foodcurve">
+   <use href="#foodcurve"></use>
+  </svg>
+
+  <svg viewBox="0 0 200 200" class="foodblobleft">
+   <use href="#foodblobleft"></use>
+  </svg>
+
+  <svg viewBox="0 0 200 200" class="foodblobright">
+   <use href="#foodblobright"></use>
+  </svg>
+
+  <!-- SUB-SECTION ONE -->
+  <div class="subsection subsection-one">
+
+   <h1 class="section-title">What're we eatin'?</h1>
+   <div class="food__card-container">
+
+    <div class="food__card">
+     <div class="food__card-img-container"><img src="./assets/icons/pizza.svg" alt=""></div>
+     <div class="food__card-content-container">
+      <h2>Saltyworld</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem fugit quas! Lorem ipsum dolor sit amet
+       consectetur.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+
+    <div class="food__card">
+     <div class="food__card-img-container"><img src="./assets/icons/drink.svg" alt=""></div>
+     <div class="food__card-content-container">
+      <h2>Drink Ocean</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem fugit quas! Lorem ipsum dolor sit amet
+       consectetur.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+
+    <div class="food__card">
+     <div class="food__card-img-container"><img src="./assets/icons/burger.svg" alt=""></div>
+     <div class="food__card-content-container">
+      <h2>Sandwichrama</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem fugit quas! Lorem ipsum dolor sit amet
+       consectetur.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+
+  <!-- SUB-SECTION TWO -->
+  <div class="subsection subsection-two">
+
+   <div class="subsection-two__text-container">
+    <h1 class="section-title">Whats's for dessert?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure officiis inventore excepturi dolorum at autem?</p>
+   </div>
+
+   <div class="desserts">
+
+    <figure>
+     <div class="desserts__img-container"><img src="./assets/icons/cake.svg" alt=""></div>
+     <figcaption>Cakes</figcaption>
+    </figure>
+
+    <figure>
+     <div class="desserts__img-container"><img src="./assets/icons/cupcake.svg" alt=""></div>
+     <figcaption>Cupcakes</figcaption>
+    </figure>
+
+    <figure>
+     <div class="desserts__img-container"><img src="./assets/icons/icecream.svg" alt=""></div>
+     <figcaption>Ice Cream</figcaption>
+    </figure>
+
+    <figure>
+     <div class="desserts__img-container"><img src="./assets/icons/milkshake.svg" alt=""></div>
+     <figcaption>Milkshakes</figcaption>
+    </figure>
+
+   </div>
+
+  </div>
+
+  <svg viewBox="0 0 352.69 238.125" class="circles">
+   <use href="#circles"></use>
+  </svg>
+ </section>
+
+ <!-- FOOTER -->
+ <footer>
+
+  <img src="./assets/icons/logo-footer.svg" alt="" class="logo-footer">
+
+  <p>© 2018 FastnD, All rights reserved</p>
+
+  <ul>
+   <li><a href="#"><img src="./assets/icons/twitter.svg" alt=""></a></li>
+   <li><a href="#"><img src="./assets/icons/fb.svg" alt=""></a></li>
+   <li><a href="#"><img src="./assets/icons/linkedin.svg" alt=""></a></li>
+   <li><a href="mailto: example@gmail.com"><img src="./assets/icons/email.svg" alt=""></a></li>
+  </ul>
+
+  <svg viewBox="0 0 1300 104" class="footercurve">
+   <use href="#footercurve"></use>
+  </svg>
+
+ </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<div class="svgs">
+
+ <svg viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="hotdog" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.02.133C-.026.21.02.348.045.508c.022.16.02.344.105.41C.236.985.409.934.6.862c.19-.07.397-.16.401-.27C1.003.483.802.354.66.255.52.156.439.085.327.061.213.036.068.054.021.133z"
+    style="stroke-width:.010192" />
+  </clipPath>
+ </svg>
+
+ <svg xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="creditcard" clipPathUnits="objectBoundingBox">
+   <path
+    d="M155.993-160.778c38.6 34.4 52.4 98 55.8 165.2 3.6 67.2-3 137.8-41.8 169.8-38.6 32-109.2 25.4-168 13.2-58.6-12-105.4-29.2-136.6-61.2-31.2-32-47-78.8-54.4-132.8-7.2-53.8-6-115.2 25.2-149.4 31.2-34.4 92.6-41.8 155-43 62.4-1.2 126 3.8 164.8 38.2"
+    fill="#bb004b" style="stroke-width:2" transform="translate(.475 .502) scale(.00247)" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="delivery" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.901.042c.087.067.112.227.093.404-.02.177-.083.37-.23.47a.535.535 0 0 1-.536.017C.065.84-.032.648.009.514.05.38.23.304.335.234.441.161.475.095.57.05.66.003.813-.024.9.042z"
+    style="stroke-width:.0088373" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="pizza" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.992.26c.05.146-.151.462-.32.558C.501.915.365.793.236.667.107.542-.016.41.002.325.019.24.177.2.407.17.637.139.94.116.992.26z"
+    style="stroke-width:.0132704" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="drink" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.822.388c.108.154.217.381.164.451C.933.908.718.82.51.814.302.809.103.886.032.804-.04.722.018.48.117.33.217.18.36.123.484.137c.124.013.23.095.338.25z"
+    style="stroke-width:.0109047" />
+  </clipPath>
+ </svg>
+
+
+ <svg viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="burger" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.96.27a.486.486 0 0 1-.115.549.573.573 0 0 1-.655.014C.011.695-.044.409.035.25.114.094.328.066.521.073.713.078.886.12.96.27z"
+    style="stroke-width:.0117516" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="cake" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.929.226c.089.08.097.28.01.411C.856.767.678.825.5.824.324.823.148.763.063.633-.023.503-.02.302.067.223.155.146.327.189.497.19.67.189.84.147.93.226z"
+    style="stroke-width:.00626175" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="cupcake" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.822.408c.108.126.217.312.164.369C.933.833.718.76.51.757.302.751.103.814.032.747-.04.681.018.483.117.361A.427.427 0 0 1 .484.203c.124.011.23.078.338.205z"
+    style="stroke-width:.00985063" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="icecream" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.895.305c.086.14.14.308.08.428-.059.12-.231.192-.44.212C.327.966.084.935.02.813c-.065-.124.049-.34.17-.5C.312.152.442.045.567.049.69.052.808.164.895.305z"
+    style="stroke-width:.00889153" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="milkshake" clipPathUnits="objectBoundingBox">
+   <path fill="#f06"
+    d="M.838.215a.42.42 0 0 1 .155.271C1.012.596.995.71.93.773.865.837.753.85.665.844.578.84.515.815.408.817.302.82.152.847.072.792-.01.74-.022.603.034.513.09.423.213.378.307.321.402.264.467.194.557.167a.333.333 0 0 1 .28.048z"
+    style="stroke-width:.00656486" />
+  </clipPath>
+ </svg>
+
+ <svg viewBox="0 0 343.958 16.14" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="stepscurve">
+   <path d="M.132.082s47.005 15.253 171.839 15.06c124.833-.193 171.855-4.44 171.855-4.44v5.405H.132Z" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 1300 99" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="foodcurve">
+   <path
+    d="M0 99.434V-.434l43.398 11.509C86.797 22.68 173.594 45.696 260.196 64.713 346.895 83.731 433.3 98.75 519.999 89.583c86.602-9.07 173.4-42.229 260.002-45.837 86.699-3.511 173.104 22.43 259.803 35.596 86.602 13.166 173.4 13.556 216.798 13.653l43.398.195v6.244z"
+    style="stroke-width:.975244" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 1300 77" width="1300" height="77" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="footercurve">
+   <path
+    d="m0 39.475 43.398.975c43.399.976 130.195 2.926 216.797 10.436 86.7 7.411 173.106 20.48 259.805 20.967 86.602.488 173.398-11.605 260-22.333 86.7-10.727 173.106-20.09 259.805-15.409 86.602 4.682 173.398 23.601 216.797 32.964l43.398 9.46V.465H0Z" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="stepsblobright">
+   <defs>
+    <linearGradient id="a">
+     <stop style="stop-color:#ff9326;stop-opacity:1" offset="0" />
+     <stop style="stop-color:#ff397f;stop-opacity:1" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="14.073" y1="109.195" x2="162.938" y2="107.663"
+     gradientUnits="userSpaceOnUse" />
+   </defs>
+   <path fill="#f06"
+    d="M168.879 9.696c-3.377-12.087-34.128-6.933-60.08-7.288-26.13-.178-47.637-5.866-64.701.889C27.212 9.874 14.59 28.893 18.68 45.6c4.088 16.531 24.707 30.574 31.64 49.77 7.11 19.02.355 42.839 8.887 63.28 8.532 20.441 31.995 37.327 60.08 40.705 28.262 3.377 61.146-6.577 62.745-28.618 1.6-22.041-27.906-56.17-30.75-87.987-2.844-31.64 20.974-60.968 17.597-73.055z"
+    style="stroke-width:1.77751;fill-opacity:1;fill:url(#b)" />
+  </symbol>
+ </svg>
+
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <symbol id="stepsblobleft">
+   <defs>
+    <linearGradient id="a">
+     <stop style="stop-color:#ff9326;stop-opacity:1" offset="0" />
+     <stop style="stop-color:#ff397f;stop-opacity:1" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="20.817" y1="88.506" x2="228.225" y2="106.897"
+     gradientUnits="userSpaceOnUse" />
+   </defs>
+   <path fill="#f06"
+    d="M71.502 159.588c-15.532-14.88-31.587-25.321-40.332-40.853C22.425 103.203 20.99 82.58 25.95 63c4.96-19.578 16.315-37.982 32.5-47.249 16.184-9.267 37.198-9.136 60.432-12.008 23.102-2.871 48.423-8.614 52.47 4.568 4.046 13.183-13.053 45.161-15.924 65.653-2.872 20.623 8.223 29.499 15.271 46.075 6.918 16.446 9.528 40.462-.13 57.3-9.66 16.706-31.717 26.235-50.252 21.405-18.403-4.96-33.414-24.277-48.815-39.157z"
+    style="stroke-width:1.30523;fill-opacity:1;fill:url(#b)" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="foodblobright">
+   <defs>
+    <linearGradient id="a">
+     <stop style="stop-color:#ff9326;stop-opacity:1" offset="0" />
+     <stop style="stop-color:#ff397f;stop-opacity:1" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="186.334" y1="101.533" x2="91.061" y2="95.402"
+     gradientUnits="userSpaceOnUse" gradientTransform="rotate(180 100 100)" />
+   </defs>
+   <path fill="#f06"
+    d="M128.498 40.412c15.532 14.88 31.587 25.321 40.332 40.853 8.745 15.532 10.18 36.155 5.22 55.734-4.96 19.578-16.315 37.982-32.5 47.249-16.184 9.267-37.198 9.136-60.432 12.008-23.102 2.871-48.423 8.614-52.47-4.568-4.046-13.183 13.053-45.161 15.924-65.653 2.872-20.623-8.223-29.499-15.271-46.075-6.918-16.446-9.528-40.462.13-57.3C39.091 5.955 61.148-3.574 79.683 1.256c18.403 4.96 33.414 24.277 48.815 39.157z"
+    style="fill:url(#b);fill-opacity:1;stroke-width:1.30523" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="foodblobleft">
+   <defs>
+    <linearGradient id="a">
+     <stop style="stop-color:#ff9326;stop-opacity:1" offset="0" />
+     <stop style="stop-color:#ff397f;stop-opacity:1" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="108.24" y1="98.916" x2="186.582" y2="100"
+     gradientUnits="userSpaceOnUse" />
+   </defs>
+   <path fill="#f06"
+    d="M195.929 179.799c-3.799 17.784-35.051 22.1-63.887 19.51-28.835-2.59-55.08-12.086-79.6-29.87-24.518-17.785-47.31-44.03-48.691-71.83-1.554-27.627 18.13-56.98 42.648-74.765C70.918 5.06 100.271-1.329 127.9.224c27.798 1.555 54.217 10.706 57.843 28.49 3.798 17.786-15.022 44.204-12.605 73.04 2.59 28.834 26.59 60.087 22.792 78.045z"
+    style="stroke-width:1.72667;fill-opacity:1;fill:url(#b)" />
+  </symbol>
+ </svg>
+
+ <svg viewBox="0 0 352.69 238.125" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="circles">
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="326.125"
+    cy="46.093" r="7.681" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="87.621"
+    cy="93.31" r="7.681" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="105.828"
+    cy="200.276" r="7.681" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="281.177"
+    cy="132.006" r="6.543" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="247.039"
+    cy="229.3" r="6.543" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="88.297"
+    cy="6.834" r="4.552" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="21.159"
+    cy="167.851" r="4.552" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="-179.759"
+    cy="171.692" r="4.836" transform="scale(-1 1)" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="-331.138"
+    cy="220.19" r="4.836" transform="scale(-1 1)" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="-27.879"
+    cy="49.5" r="4.836" transform="scale(-1 1)" />
+   <circle style="opacity:.25;fill:#ff397f;fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:0" cx="-196.293"
+    cy="49.5" r="4.836" transform="scale(-1 1)" />
+  </symbol>
+ </svg>
+
+
+
+</div>

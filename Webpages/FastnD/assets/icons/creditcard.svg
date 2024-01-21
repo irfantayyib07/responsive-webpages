@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg5333"
+   sodipodi:docname="creditcard.svg"
+   width="400"
+   height="400"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview5335"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:zoom="0.70963542"
+     inkscape:cx="137.39449"
+     inkscape:cy="157.82752"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1-2" />
+  <defs
+     id="defs5323">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7898">
+      <stop
+         style="stop-color:#f68b34;stop-opacity:1"
+         offset="0"
+         id="stop7894" />
+      <stop
+         style="stop-color:#ff3285;stop-opacity:1"
+         offset="1"
+         id="stop7896" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7826">
+      <stop
+         style="stop-color:#f68b34;stop-opacity:1"
+         offset="0"
+         id="stop7822" />
+      <stop
+         style="stop-color:#ff3285;stop-opacity:1"
+         offset="1"
+         id="stop7824" />
+    </linearGradient>
+    <style
+       id="style5321">.cls-1{fill:#35353d;}</style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7826"
+       id="linearGradient7828"
+       x1="10.521835"
+       y1="44.492332"
+       x2="75.15596"
+       y2="44.492332"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91666667,0,0,0.91666667,3.5555554,2.8940513)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7898"
+       id="linearGradient7900"
+       x1="53.187214"
+       y1="57.744476"
+       x2="65.242004"
+       y2="57.744476"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91666667,0,0,0.91666667,3.5555554,2.8940513)" />
+  </defs>
+  <title
+     id="title5325">Asset 37</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="matrix(4.6875,0,0,4.6875,50,90.187156)"
+     style="stroke-width:0.21333333;stroke-miterlimit:4;stroke-dasharray:none">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1"
+       style="stroke-width:0.213333;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="translate(-10.666667,-19.239927)">
+      <path
+         class="cls-1"
+         d="M 66.073059,20.86758 H 20.867581 c -4.16105,0 -7.534247,3.373197 -7.534247,7.534246 v 30.136986 c 0,4.16105 3.373197,5.926942 7.534247,5.926942 H 66.073059 C 70.234109,64.465754 72,62.699862 72,58.538812 V 28.401826 C 72,24.240777 70.234109,20.86758 66.073059,20.86758 Z m -45.205478,3.415526 h 45.205478 c 1.386606,0.0051 2.509391,2.732115 2.514555,4.11872 v 2.514556 H 16.74886 v -2.514556 c 0.146725,-3.156116 2.732115,-4.113556 4.118721,-4.11872 z M 66.073059,61.053368 H 20.867581 c -1.386606,-0.0051 -4.118721,0.217667 -4.118721,-2.514556 l -0.0031,-24.210044 h 51.838755 l 0.0031,24.210044 c -0.0052,1.386606 -1.12795,2.50939 -2.514556,2.514556 z"
+         id="path5327"
+         style="fill:url(#linearGradient7828);fill-opacity:1;stroke-width:0.200913;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:nodetypes="ssssssssscccccccccccccc" />
+      <rect
+         class="cls-1"
+         x="52.310501"
+         y="44.77626"
+         width="11.050228"
+         height="11.050228"
+         id="rect5329"
+         style="fill:url(#linearGradient7900);fill-opacity:1;stroke-width:0.176848;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <metadata
+     id="metadata5337">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Asset 37</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
