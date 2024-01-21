@@ -11,7 +11,7 @@
   },
   {
    "target": "travel-agency",
-   "public": "./webpages/Webpage2",
+   "public": "./Webpages/TravelAgency",
    "ignore": [
     "firebase.json",
     "**/.*",
@@ -20,7 +20,7 @@
   },
   {
    "target": "personal-portfolio",
-   "public": "./webpages/Webpage3",
+   "public": "./Webpages/PersonalPortfolio",
    "ignore": [
     "firebase.json",
     "**/.*",
@@ -29,7 +29,7 @@
   },
   {
    "target": "aipay",
-   "public": "./webpages/Webpage4",
+   "public": "./Webpages/AIPay",
    "ignore": [
     "firebase.json",
     "**/.*",
@@ -38,7 +38,7 @@
   },
   {
    "target": "fastnd",
-   "public": "./webpages/Webpage5",
+   "public": "./Webpages/FastnD",
    "ignore": [
     "firebase.json",
     "**/.*",
